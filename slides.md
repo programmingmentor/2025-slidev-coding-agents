@@ -72,25 +72,306 @@ image: /vyacheslav-koldovskyy.png
 
 ---
 
-# Програма події
-
-- Нетворкінг: до початку, перерви, після виступу
-- Виступ: «Найкращі практики розробки з AI агентами»
-- Q&A та обмін контактами
+# Що ви скажете про вайб-кодинг?
 
 ---
 
-# Анотація доповіді
+# Чому ми говоримо про агенти в розробці?
 
-AI в розробці швидко прогресує і основним інструментом у 2025-му році стали AI-агенти. Але вони не завжди роблять саме те, що нам потрібно. Під час події я поділюсь власним досвідом і практичними рекомендаціями про те, як правильно керувати AI агентами, а також ви дізнаєтесь як примусити їх "слухатися" та які знання і навички для цього потрібно мати.
+- AI в розробці швидко прогресує і основним інструментом у 2025-му році стали AI-агенти.
+- Їх стало (за)багато.
+- З ними не все так просто:
+  - Не завжди роблять саме те, що нам потрібно.
+  - Обходяться недешево.
+  - Досягнення цілей займає багато часу.
+  - Потребують нагляду та керування.
 
 ---
 
-# Що ви дізнаєтесь
+# Як ми взагалі дійшли до агентів?
 
-- Як «примусити» агентів слухатися
-- Як правильно керувати агентами в розробці
-- Які знання і навички потрібні у 2025
+---
+
+# Найпростіше використання: промпт + LLM = код
+
+<div class="w-full flex justify-center">
+  <img src="/how-works-prompt-llm-code.png" class="w-4/5"/>
+</div>
+
+---
+
+# Промт - це значно більше, ніж просто команда для LLM
+
+<div class="w-full flex justify-center">
+  <img src="/how-works-prompt-expanded-llm-code.png" class="w-4/5"/>
+</div>
+
+---
+
+# Агентний цикл
+
+<div class="w-full flex justify-center">
+  <img src="/how-works-simple-agent.png" class="w-4/5"/>
+</div>
+
+---
+
+# Агент з інструментами
+
+<div class="w-full flex justify-center">
+  <img src="/how-works-modern-agent.png" class="w-4/5"/>
+</div>
+
+---
+
+# Ключові особливості агентів
+
+- Агент має ціль, яку він прагне досягти.
+- Агент отримує контекст для виконання задач.
+- Агент має пам'ять для збереження стану між кроками.
+- Агент має інструменти для виконання задач.
+- Агент може планувати послідовність дій.
+- Агент здатний до саморефлексії та корекції помилок.
+
+---
+
+# Які бувають агенти для розробки?
+
+- **Повністю автономні**: Cognition **Devin**, SWE-agent (SWE-bench), OpenDevin, AutoGPT (Dev/Code агенти)
+
+- **Агенти в IDE (Human in the loop)**: GitHub Copilot Chat, Cursor IDE, Codeium Chat, JetBrains AI Assistant / Junie, Sourcegraph Cody, AWS Q Developer, Roo Code / Cline, Kiro
+
+- **Гібридні**: GitHub Copilot Workspace, Copilot Autofix, Replit Agents, OpenDevin, SWE-agent
+
+- **CLI агенти (Terminal)**: Claude Code, Codex CLI, GitHub Copilot in the CLI, Cursor CLI, Aider, Gemini CLI
+
+- **Хмарні агенти**: Vercel V0, Replit Agent, bolt.new
+
+---
+layout: center
+---
+
+## Наскільки дорого може коштувати користуватися агентами?
+
+<div class="flex justify-center">
+  <Tweet class="w-1/2" id="1964819755644412087" />
+</div>
+
+---
+
+# Чому агенти не завжди роблять те, що нам потрібно?
+
+<v-click>
+Промпт: згенеруй аплікацію для ведення витрат.
+</v-click>
+
+---
+
+# Що найважливіше навчитися робити?
+
+<v-click>
+Детально пояснювати те, що саме нам потрібно.
+</v-click>
+
+---
+
+# Spec Driven Development
+
+Основні принципи:
+
+- **Specifications as the Lingua Franca**  
+  Специфікації — головний артефакт, код лише їх вираз
+
+- **Executable Specifications**  
+  Специфікації достатньо точні, щоб генерувати робочі системи
+
+- **Continuous Refinement**  
+  Постійна перевірка на неоднозначності, суперечності та прогалини
+
+- **Research-Driven Context**  
+  Автоматичний збір контексту: сумісність, продуктивність, безпека
+
+- **Bidirectional Feedback**  
+  Метрики й інциденти з продакшну оновлюють специфікації
+
+- **Branching for Exploration**  
+  Можливість створювати кілька імплементацій з однієї специфікації
+
+---
+
+# Як це працює?
+
+- Write the Spec – Визначити вимоги, критерії приймання та цілі дизайну.
+- Implement & Test – Створити код відповідно до специфікації; вивести тести з критеріїв приймання.
+- Iterate – Удосконалювати специфікацію та імплементацію разом.
+- Maintain & Document – Тримати специфікацію актуальною; вона залишається довідковою точкою проєкту.
+
+---
+
+# Kiro
+
+<div class="w-full flex justify-center">
+  <img src="/kiro.png" class="w-4/5"/>
+</div>
+
+---
+
+# Kiro
+
+<div class="w-full flex justify-center">
+  <img src="/kiro-requirements.png" class="w-4/5"/>
+</div>
+
+---
+
+# Kiro
+
+<div class="w-full flex justify-center">
+  <img src="/kiro-design.png" class="w-4/5"/>
+</div>
+
+---
+
+# Kiro
+
+<div class="w-full flex justify-center">
+  <img src="/kiro-implementation.png" class="w-4/5"/>
+</div>
+
+---
+
+# Kiro
+
+<div class="w-full flex justify-center">
+  <img src="/kiro-implementing-task.png" class="w-4/5"/>
+</div>
+
+---
+
+# Анонс у блозі GitHub
+
+<div class="w-full flex justify-center">
+  <img src="/github-blog.png" class="w-4/5"/>
+</div>
+
+---
+
+# GitHub Spec Kit
+
+<div class="w-full flex justify-center">
+  <img src="/github-spec-kit.png" class="w-4/5"/>
+</div>
+
+---
+
+## Як стартувати зі Spec Kit
+
+```bash
+# 1) Ініціалізація CLI
+uvx --from git+https://github.com/github/spec-kit.git specify init <PROJECT_NAME>
+
+# 2) Формулюємо специфікацію
+/specify ... (що будуємо і чому)
+
+# 3) Плануємо технічну імплементацію
+/plan ... (стек, архітектура)
+
+# 4) Розбиваємо на кроки та імплементуємо
+/tasks ... → просимо агента виконати
+```
+
+---
+
+# GitHub Spec Kit - файли і команди, результат /specify
+
+<div class="w-full flex justify-center">
+  <img src="/github-spec-kit-init.png" class="w-4/5"/>
+</div>
+
+---
+
+# GitHub Spec Kit - research
+
+<div class="w-full flex justify-center">
+  <img src="/github-spec-kit-research.png" class="w-4/5"/>
+</div>
+
+---
+
+## SDD і фази розробки
+
+| Фаза                     | Фокус                   | Що робимо                                    |
+| ------------------------ | ----------------------- | -------------------------------------------- |
+| 0→1 (Greenfield)         | Створення з нуля        | Вимоги → специфікація → план → імплементація |
+| Креативні дослідження    | Паралельні реалізації   | Порівняння стеків, UX‑підходів               |
+| Ітеративне вдосконалення | Модернізація brownfield | Додавання фіч, рефакторинг, адаптація        |
+
+---
+
+## Експерименти з SDD
+
+- **Обираємо технології** – генерація проєктів у різних стеках
+- **Обмеження бізнесу** – дизайн‑системи, комплаєнс, платформи
+- **Гіпотези про UX/UI** – різні когорти та стилі UX/UI
+- **Будь-які інші експерименти** – паралельні варіанти, апгрейди й модернізації
+
+---
+
+## Що потрібно для роботи з Spec Kit?
+
+- Linux/macOS або WSL2 на Windows
+- AI‑кодер: Claude Code, GitHub Copilot чи Gemini CLI
+- **uv** (менеджер пакетів), **Python 3.11+**, **Git**
+
+---
+
+## Приклад промптів
+
+**/specify**
+
+> Створити застосунок для організації фотоальбомів з переглядом плиткою і перетягуванням альбомів.
+
+**/plan**
+
+> Мінімалістичний стек: Vite + HTML/CSS/JS; зберігання локально в SQLite; без завантаження фото в зовнішні сервіси.
+
+---
+
+## Структура папок (приклад)
+
+```
+project/
+  memory/
+  scripts/
+  specs/
+    001-<feature>/
+    spec.md
+  templates/
+    CLAUDE-template.md
+    plan-template.md
+    spec-template.md
+    tasks-template.md
+```
+
+---
+layout: section
+---
+
+# Лайфхаки
+
+---
+layout: fact
+---
+
+Ланцюжок: Repomix -> ChatGPT (Gemini) -> Cursor
+
+---
+
+# Repomix
+
+<div class="w-full flex justify-center">
+  <img src="/repomix.png" class="w-4/5"/>
+</div>
 
 ---
 
@@ -106,180 +387,28 @@ AI в розробці швидко прогресує і основним ін�
 
 # Контекст і знання
 
-- Репромптинг репозиторію: Repomix, 16x Prompt
-- llms.txt для проєктів та сервісів
-- Документація в контексті: @docs, README, ADRs
-- Зменшення шуму: давати лише релевантні частини
+- За потреби явно керуємо контекстом, додаємо необхідне
+- Документація - додаємо в правила, використовуємо @docs, MCP context7
+- Під час використання MCP не перегружаємо інструментами
+- Забагато контексту - не завжди добре
 
 ---
 
 # Безпека і контроль
 
-- Sandbox, читання за замовчуванням, мінімальні права на запис
-- Secret management, моніторинг мережі, блокування небезпечних команд
-- Перевірка diff перед виконанням, non-interactive прапори
+- Sandbox, white/black list для команд, захист видалення файлів
+- Secret management, .cursoringore
+- Перевірка diff перед виконанням
+- Обережне використання MCP
 
 ---
 
-# Практики розробки з агентами
+# Щоб не ламався код
 
 - TDD з агентом: тести → код → фікси
 - Лінт/типи/тести на кожний крок, швидкий зворотний зв'язок
 - Local History/гілки для безпечних експериментів
-- Короткі документи рішень, без зайвих деталей
-
----
-
-# Необхідні знання і навички
-
-- Архітектура ПЗ, Git, CI/CD, тестування, безпека
-- Prompt/Task design, MCP і робота з інструментами/API
-- Інтерпретація логів, дебаг, оцінка вартості і контексту
-
----
-layout: image-left
-image: /software-engineer-1-0.jpg
----
-
-# Software Engineer 1.0
-
-- Knowledge: books, articles, paper documentation
-- Communication via email, phone
-- Primitive developer tools, version control systems
-- SDLC: Waterfall, V-model
-  <br>
-  <br>
-  <v-click>What was the development speed?</v-click>
-  <br>
-  <v-click>Were they less qualified specialists than today?</v-click>
-
----
-layout: image-left
-image: /software-engineer-2-0.webp
----
-
-# Software Engineer 2.0
-
-- Knowledge: Internet, online courses, Google, StackOverflow
-- Communication via Slack, Teams, Discord, Zoom, Google Meet, Telegram
-- Advanced developer tools, version control systems with CI/CD
-- SDLC: Agile, DevOps
-  <br>
-  <br>
-  <v-click>What is the development speed?</v-click>
-  <br>
-  <v-click>How much more qualified compared to 1.0?</v-click>
-
-<!--
-Nasa Programmer Margret Hamilton standing next to the code that brought man to the moon.
--->
-
----
-
-# Software Engineer 3.0
-
-<div class="absolute inset-0 flex justify-center items-center">
-  <div class="text-9xl font-bold">?</div>
-</div>
-
----
-layout: image
-image: /timeline-of-tech-longterm.png
-backgroundSize: contain
-title: Timeline of Tech
----
-
----
-layout: center
----
-
-#### It's not that everything is developing quickly now, it's that everything used to happen slowly
-
-<div class="flex justify-center">
-  <Tweet class="w-1/2" id="1848558163756519607" />
-</div>
-
----
-
-# Практики «Vibe Coding» та роль агентів
-
-<div class="w-full flex justify-center">
-  <img src="/vibe-coding-tweet.png" class="w-1/2"/>
-</div>
-
----
-
-# Pieter Levels
-
-<div class="w-full flex justify-center">
-  <img src="/levelsio.png" class="w-1/2"/>
-</div>
-
----
-
-<div class="w-full flex justify-center">
-  <Tweet scale="0.65" id="1901660771505021314" class="w-3/4"/>
-</div>
-
----
-
-<div class="w-full flex justify-center">
-  <img src="/personal-motivation-calendar.png" class="w-1/2"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://personalmotivationcalendar.com/">https://personalmotivationcalendar.com/</a>
-</div>
-
----
-
-# Fails - SaaS
-
-<div class="w-full flex justify-center">
-  <img src="/fail-saas.png" class="w-1/3"/>
-</div>
-
----
-
-# Fails - Fetch
-
-<div class="w-full flex justify-center">
-  <img src="/fail-fetch.png" class="w-1/3"/>
-</div>
-
----
-
-# Fails - rm -rf
-
-<div class="w-full flex justify-center">
-  <img src="/fail-clean-directory.png" class="w-4/5"/>
-</div>
-
----
-
-# Інструменти агентного стеку
-
-- Cursor
-- Windsurf
-- Cline
-- Github Copilot
-- v0.dev
-- bolt.new
-- repl.it agent
-- lovable
-- ChatGPT
-- Grok
-- ...
-
----
-
-# Як це працює (агентний цикл)?
-
-<div class="w-full flex justify-center">
-  <img src="/how-works-prompt-llm-code.png" class="w-4/5"/>
-</div>
-
----
+- Короткі кроки
 
 # LLM
 
@@ -301,30 +430,6 @@ layout: center
 
 <div class="w-full flex justify-center">
   <a href="https://web.lmarena.ai/">https://web.lmarena.ai/</a>
-</div>
-
----
-
-# How it works - more details
-
-<div class="w-full flex justify-center">
-  <img src="/how-works-prompt-expanded-llm-code.png" class="w-4/5"/>
-</div>
-
----
-
-# How it works - simple agent
-
-<div class="w-full flex justify-center">
-  <img src="/how-works-simple-agent.png" class="w-4/5"/>
-</div>
-
----
-
-# How it works - modern agent
-
-<div class="w-full flex justify-center">
-  <img src="/how-works-modern-agent.png" class="w-4/5"/>
 </div>
 
 ---
