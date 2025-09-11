@@ -148,6 +148,102 @@ image: /vyacheslav-koldovskyy.png
 - **Хмарні агенти**: Vercel V0, Replit Agent, bolt.new
 
 ---
+
+# bolt.new
+
+<div class="w-full flex justify-center">
+  <img src="/bolt-new.png" class="w-1/2"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://bolt.new/">https://bolt.new/</a>
+</div>
+
+---
+
+# v0.dev
+
+<div class="w-full flex justify-center">
+  <img src="/v0-dev.png" class="w-4/5"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://v0.dev/">https://v0.dev/</a>
+</div>
+
+---
+
+# repl.it agent
+
+<div class="w-full flex justify-center">
+  <img src="/replit.png" class="w-4/5"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://repl.it/">https://repl.it/</a>
+</div>
+
+---
+
+# Github Copilot
+
+<div class="w-full flex justify-center">
+  <img src="/github-copilot.png" class="w-4/5"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://copilot.github.com/">https://copilot.github.com/</a>
+</div>
+
+---
+
+# Cursor
+
+<div class="w-full flex justify-center">
+  <img src="/cursor.png" class="w-4/5"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://www.cursor.com/">https://www.cursor.com/</a>
+</div>
+
+---
+
+# Windsurf
+
+<div class="w-full flex justify-center">
+  <img src="/windsurf.png" class="w-4/5"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://codeium.com/windsurf">https://codeium.com/windsurf</a>
+</div>
+
+---
+
+# Cline
+
+<div class="w-full flex justify-center">
+  <img src="/cline.png" class="w-4/5"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://cline.bot/">https://cline.bot/</a>
+</div>
+
+---
+
+# Codex
+
+<div class="w-full flex justify-center">
+  <img src="/codex.png" class="w-4/5"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://openai.com/codex/">https://openai.com/codex/</a>
+</div>
+
+---
 layout: center
 ---
 
@@ -410,7 +506,9 @@ layout: fact
 - Local History/гілки для безпечних експериментів
 - Короткі кроки
 
-# LLM
+---
+
+# Рейтинг LLM
 
 <div class="w-full flex justify-center">
   <img src="/chatbot-arena-language.png" class="w-4/5"/>
@@ -418,26 +516,6 @@ layout: fact
 
 <div class="w-full flex justify-center">
   <a href="https://lmarena.ai/">https://lmarena.ai/</a>
-</div>
-
----
-
-# WebDev Arena
-
-<div class="w-full flex justify-center">
-  <img src="/web-dev-arena.png" class="w-4/5"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://web.lmarena.ai/">https://web.lmarena.ai/</a>
-</div>
-
----
-
-# Main issue: context window limit and price
-
-<div class="w-full flex justify-center">
-  <img src="/context-window.png" class="w-4/5"/>
 </div>
 
 ---
@@ -460,186 +538,6 @@ layout: fact
 - **Python source code file (200 lines):** 1,700 tokens
 
 Source https://prompt.16x.engineer/blog/chatgpt-context-window-token-limit
-
----
-
-# Price
-
-<div class="w-full flex justify-center">
-  <img src="/openai-pricing.png" class="w-4/5"/>
-</div>
-
-https://openai.com/api/pricing/
-
----
-
-# Security and Legal Issues with AI Code Generation Tools
-
-- Run arbitrary commands on system
-- Use integrations with external services without proper control
-- Leak sensitive information and intellectual property
-- Generate insecure (vulnerable) code
-- Install unwanted dependencies
-- Generate code with intellectual property violations
-
----
-
-# Tools: general purpose
-
-- ChatGPT
-- Grok
-- Gemini (gemini.google, aistudio.google.com)
-- Claude
-- DeepSeek
-
----
-
-# ChatGPT
-
-<div class="w-full flex justify-center">
-  <img src="/chatgpt-canvas.png" class="w-4/5"/>
-</div>
-
----
-
-# Grok
-
-<div class="w-full flex justify-center">
-  <img src="/grok.png" class="w-1/2"/>
-</div>
-
----
-
-# Gemini
-
-<div class="w-full flex justify-center">
-  <img src="/gemini.png" class="w-4/5"/>
-</div>
-
----
-
-# Gemini AI Studio
-
-<div class="w-full flex justify-center">
-  <img src="/gemini-ai-studio.png" class="w-4/5"/>
-</div>
-
----
-
-# Repository Prompt Tools
-
-- Repomix
-- 16x Prompt
-- Repo Prompt
-- ...
-
----
-
-# Repomix
-
-<div class="w-full flex justify-center">
-  <img src="/repomix.png" class="w-1/2"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://repomix.com/">https://repomix.com/</a>
-</div>
-
----
-
-# 16x Prompt
-
-<div class="w-full flex justify-center">
-  <img src="/16x-prompt.png" class="w-1/2"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://prompt.16x.engineer/">https://prompt.16x.engineer/</a>
-</div>
-
----
-
-# bolt.new
-
-<div class="w-full flex justify-center">
-  <img src="/bolt-new.png" class="w-1/2"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://bolt.new/">https://bolt.new/</a>
-</div>
-
----
-
-# v0.dev
-
-<div class="w-full flex justify-center">
-  <img src="/v0-dev.png" class="w-4/5"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://v0.dev/">https://v0.dev/</a>
-</div>
-
----
-
-# repl.it agent
-
-<div class="w-full flex justify-center">
-  <img src="/replit.png" class="w-4/5"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://repl.it/">https://repl.it/</a>
-</div>
-
----
-
-# Github Copilot
-
-<div class="w-full flex justify-center">
-  <img src="/github-copilot.png" class="w-4/5"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://copilot.github.com/">https://copilot.github.com/</a>
-</div>
-
----
-
-# Cursor
-
-<div class="w-full flex justify-center">
-  <img src="/cursor.png" class="w-4/5"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://www.cursor.com/">https://www.cursor.com/</a>
-</div>
-
----
-
-# Windsurf
-
-<div class="w-full flex justify-center">
-  <img src="/windsurf.png" class="w-4/5"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://codeium.com/windsurf">https://codeium.com/windsurf</a>
-</div>
-
----
-
-# Cline
-
-<div class="w-full flex justify-center">
-  <img src="/cline.png" class="w-4/5"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://cline.bot/">https://cline.bot/</a>
-</div>
 
 ---
 
