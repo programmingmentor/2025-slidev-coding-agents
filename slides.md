@@ -64,7 +64,8 @@ image: /vyacheslav-koldovskyy.png
 - Ph.D, доцент
 - 20+ років в IT
 - SoftServe Academy Competence Manager
-- Certified Google Cloud Professional Architect
+- Certified Google Cloud Professional Architect, Certified nVidia Generative AI with LLMs
+- Керівник Центру Генеративного AI в IT STEP University
 - Ентузіаст Практичного AI
 - Ютубер: [youtube.com/@programmingmentorua](https://www.youtube.com/@programmingmentorua)
 - Блогер: [t.me/programmingmentor](https://t.me/programmingmentor)
@@ -318,12 +319,20 @@ layout: center
   <img src="/kiro-requirements.png" class="w-4/5"/>
 </div>
 
+<div class="text-center">
+  Вимоги
+</div>
+
 ---
 
 # Kiro
 
 <div class="w-full flex justify-center">
   <img src="/kiro-design.png" class="w-4/5"/>
+</div>
+
+<div class="text-center">
+  Дизайн
 </div>
 
 ---
@@ -334,6 +343,10 @@ layout: center
   <img src="/kiro-implementation.png" class="w-4/5"/>
 </div>
 
+<div class="text-center">
+  Імплементація
+</div>
+
 ---
 
 # Kiro
@@ -341,6 +354,11 @@ layout: center
 <div class="w-full flex justify-center">
   <img src="/kiro-implementing-task.png" class="w-4/5"/>
 </div>
+
+<div class="text-center">
+  Імплементація
+</div>
+
 
 ---
 
@@ -396,11 +414,12 @@ uvx --from git+https://github.com/github/spec-kit.git specify init <PROJECT_NAME
 
 ## SDD і фази розробки
 
+
 | Фаза                     | Фокус                   | Що робимо                                    |
 | ------------------------ | ----------------------- | -------------------------------------------- |
-| 0→1 (Greenfield)         | Створення з нуля        | Вимоги → специфікація → план → імплементація |
+| Greenfield               | Створення з нуля        | Вимоги → специфікація → план → імплементація |
+| Brownfield               | Робота з існуючим       | Додавання фіч, рефакторинг, адаптація        |
 | Креативні дослідження    | Паралельні реалізації   | Порівняння стеків, UX‑підходів               |
-| Ітеративне вдосконалення | Модернізація brownfield | Додавання фіч, рефакторинг, адаптація        |
 
 ---
 
@@ -410,14 +429,6 @@ uvx --from git+https://github.com/github/spec-kit.git specify init <PROJECT_NAME
 - **Обмеження бізнесу** – дизайн‑системи, комплаєнс, платформи
 - **Гіпотези про UX/UI** – різні когорти та стилі UX/UI
 - **Будь-які інші експерименти** – паралельні варіанти, апгрейди й модернізації
-
----
-
-## Що потрібно для роботи з Spec Kit?
-
-- Linux/macOS або WSL2 на Windows
-- AI‑кодер: Claude Code, GitHub Copilot чи Gemini CLI
-- **uv** (менеджер пакетів), **Python 3.11+**, **Git**
 
 ---
 
@@ -450,6 +461,18 @@ project/
 ```
 
 ---
+
+# AGENTS.md
+
+<div class="w-full flex justify-center">
+  <img src="/agents-md.png" class="w-3/4"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://agents.md">agents.md</a>
+</div>
+
+---
 layout: section
 ---
 
@@ -477,7 +500,6 @@ layout: fact
 - Малі кроки, короткі контексти, відкат та відновлення
 - Права доступу й інструменти: allowlist, dry-run, approvals
 - План/Дія: режими Plan/Act, контроль бюджету і таймаутів
-- Логи, артефакти, відтворюваність (reproducibility)
 
 ---
 
@@ -605,80 +627,18 @@ Source https://prompt.16x.engineer/blog/chatgpt-context-window-token-limit
   <a href="https://llmstxt.org/">https://llmstxt.org/</a>
 </div>
 
----
 
-# Drizzle ORM llms.txt
-
-<Tweet scale="0.65" id="1896981123559002158" class="w-3/4"/>
-
-https://orm.drizzle.team/llms.txt
-
----
-
-# Plan Mode
-
-<div class="w-full flex justify-center">
-  <img src="/cursor-plan-mode.png" class="w-1/2"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://forum.cursor.com/t/plan-vs-act-mode-xml-prompt/50996">https://forum.cursor.com/t/plan-vs-act-mode-xml-prompt/50996</a>
-</div>
-
----
-
-# Docs
-
-<div class="w-full flex justify-center">
-  <img src="/cursor-docs.png" class="w-3/4"/>
-</div>
-
-<div class="w-full flex justify-center">
-  <a href="https://docs.cursor.com/context/@-symbols/@-docs">https://docs.cursor.com/context/@-symbols/@-docs</a>
-</div>
-
----
-
-# TDD
-
-# Prompt:
-
-## create ...
-
-## write tests first, then the code, then update code until tests pass
-
----
-
-# Local History Plugin
-
-<div class="w-full flex justify-center">
-  <img src="/local-history.png" class="w-1/2"/>
-</div>
-
----
-
-# Типові проблеми з агентами
-
-- Breaking code changes
-- Hallucinations and incorrect solutions
-- Deadlocks
-- Limited knowledge of new libraries/frameworks
-- Issues with large codebases
-- Issues with security
-- Speed of development
-- Cost of usage
-- ...
 
 ---
 ## layout: end
 ---
 
-# Thank you!
+# Дякую!
 
 <div class="flex justify-center w-full h-30 items-center">
-  <img src="/slides-qr.png" class="w-25 h-25"/>
+  <img src="/slides-qr.png" class="w-50 h-50"/>
 </div>
 
-<div class="w-full flex justify-center">
+<div class="w-full flex justify-center mt-20">
   <a href="https://programmingmentor.github.io/2025-slidev-coding-agents/">https://programmingmentor.github.io/2025-slidev-coding-agents/</a>
 </div>
